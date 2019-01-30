@@ -1,5 +1,6 @@
 ThisBuild / organization := "lt.tabo"
 ThisBuild / scalaVersion := "2.12.8"
+ThisBuild / scalacOptions ++= Seq("-feature")
 
 lazy val root = project.in(file("."))
   .settings(
